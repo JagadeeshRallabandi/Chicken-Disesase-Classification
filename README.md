@@ -1,19 +1,18 @@
-Chicken-Disease-Classification--Project
-Workflows
-Update config.yaml
-Update secrets.yaml [Optional]
-Update params.yaml
-Update the entity
-Update the configuration manager in src config
-Update the components
-Update the pipeline
-Update the main.py
-Update the dvc.yaml
-How to run?
+##Chicken-Disease-Classification--Project
+##Workflows
+1.Update config.yaml
+2.Update secrets.yaml [Optional]
+3.Update params.yaml
+4.Update the entity
+5.Update the configuration manager in src config
+6.Update the components
+7.Update the pipeline
+8.Update the main.py
+9.Update the dvc.yaml
+#How to run?
 STEPS:
 Clone the repository
-
-https://github.com/entbappy/Chicken-Disease-Classification--Project
+https://github.com/JagadeeshRallabandi/Chicken-Disesase-Classification
 STEP 01- Create a conda environment after opening the repository
 conda create -n cnncls python=3.8 -y
 conda activate cnncls
@@ -23,12 +22,12 @@ pip install -r requirements.txt
 python app.py
 Now,
 
-open up you local host and port
+##open up you local host and port
 DVC cmd
 dvc init
 dvc repro
 dvc dag
-AWS-CICD-Deployment-with-Github-Actions
+##AWS-CICD-Deployment-with-Github-Actions
 1. Login to AWS console.
 2. Create IAM user for deployment
 #with specific access

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Chicken-Disease-Classification--Project
 
 
@@ -21,7 +20,7 @@
 Clone the repository
 
 ```bash
-https://github.com/entbappy/Chicken-Disease-Classification--Project
+https://github.com/JagadeeshRallabandi/Chicken-Disesase-Classification
 ```
 ### STEP 01- Create a conda environment after opening the repository
 

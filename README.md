@@ -1,5 +1,5 @@
-##Chicken-Disease-Classification--Project
-##Workflows
+# Chicken-Disease-Classification--Project#
+# Workflows
 1.Update config.yaml
 2.Update secrets.yaml [Optional]
 3.Update params.yaml
@@ -9,9 +9,9 @@
 7.Update the pipeline
 8.Update the main.py
 9.Update the dvc.yaml
-#How to run?
+# How to run?
 STEPS:
-Clone the repository
+# Clone the repository
 https://github.com/JagadeeshRallabandi/Chicken-Disesase-Classification
 STEP 01- Create a conda environment after opening the repository
 conda create -n cnncls python=3.8 -y
@@ -22,12 +22,12 @@ pip install -r requirements.txt
 python app.py
 Now,
 
-##open up you local host and port
+# open up you local host and port
 DVC cmd
 dvc init
 dvc repro
 dvc dag
-##AWS-CICD-Deployment-with-Github-Actions
+# AWS-CICD-Deployment-with-Github-Actions
 1. Login to AWS console.
 2. Create IAM user for deployment
 #with specific access
@@ -37,7 +37,7 @@ dvc dag
 2. ECR: Elastic Container registry to save your docker image in aws
 
 
-#Description: About the deployment
+# Description: About the deployment
 
 1. Build docker image of the source code
 
@@ -49,7 +49,7 @@ dvc dag
 
 5. Lauch your docker image in EC2
 
-#Policy:
+# Policy:
 
 1. AmazonEC2ContainerRegistryFullAccess
 
@@ -58,7 +58,7 @@ dvc dag
 - Save the URI: 566373416292.dkr.ecr.us-east-1.amazonaws.com/chicken
 4. Create EC2 machine (Ubuntu)
 5. Open EC2 and Install docker in EC2 Machine:
-#optinal
+# optinal
 
 sudo apt-get update -y
 

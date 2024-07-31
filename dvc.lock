@@ -4,11 +4,13 @@ stages:
     cmd: python src/cnnClassifier/pipeline/stage_01_data_ingestion.py
     deps:
     - path: config/config.yaml
-      md5: 3f6dc733e0735665409e293214355568
-      size: 818
+      hash: md5
+      md5: 008f1ad41f5a1ae04eb052e338f7cda3
+      size: 815
     - path: src/cnnClassifier/pipeline/stage_01_data_ingestion.py
-      md5: b0ff51aae578695575ba98f83c03d86e
-      size: 914
+      hash: md5
+      md5: 395464d347a4442dbeab473310a6753b
+      size: 910
     outs:
     - path: artifacts/data_ingestion/Chicken-fecal-images
       md5: 9e1f8dd2eae3c29e9d635df89d438ae4.dir
